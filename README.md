@@ -24,6 +24,7 @@ In a nutshell, there are 3 big reasons:
 ## Sequence Diagrams
 ![image](https://github.com/erdietri/DiagramAsCode_Mermaid/assets/37638931/78d9af84-94df-4876-b42e-861377b643e3)
 ### What is a sequence diagram?
+A sequence diagram shows you the flow of operations for a particular use case. For instance, in order for another developer to understand implementation of a login feature, you might create a sequence diagram that illustrates step-by-step the communication between client, server, database, etc. More information on this type of UML diagram and its notation: https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/ 
 ### Creating a sequence diagram with Mermaid
 
 ## Class Diagrams
