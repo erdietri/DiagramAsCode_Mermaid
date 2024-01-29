@@ -15,6 +15,7 @@ In a nutshell, there are 3 big reasons:
 ## Installation
 
 ## Sequence Diagrams
+![image](https://github.com/erdietri/DiagramAsCode_Mermaid/assets/37638931/78d9af84-94df-4876-b42e-861377b643e3)
 ### What is a sequence diagram?
 ### Creating a sequence diagram with Mermaid
 
