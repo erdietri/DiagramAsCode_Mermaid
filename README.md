@@ -25,7 +25,11 @@ In a nutshell, there are 3 big reasons:
 ![image](https://github.com/erdietri/DiagramAsCode_Mermaid/assets/37638931/78d9af84-94df-4876-b42e-861377b643e3)
 <i>An example sequence diagram illustrating the order of operations for user login</i>
 ### What is a sequence diagram?
-A sequence diagram shows you the flow of operations for a particular use case. For instance, in order for another developer to understand implementation of a login feature, you might create a sequence diagram that illustrates step-by-step the communication between client, server, database, etc. More information on this type of UML diagram and its notation: https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/ 
+A sequence diagram shows you the flow of operations for a particular use case. They are technical diagrams typically referenced by other engineers/technical folks. More information on this type of UML diagram and its notation: https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/ 
+#### Developers
+Let's pretend you developed the login feature for your company's app. In order to properly document and explain this feature to the rest of your development team, you might create a sequence diagram. The sequence diagram would illustrate, step-by-step, the communication between client, server, database, etc. 
+#### Network Engineers 
+While UML diagrams are typically used in software development, the concept of explaining order of operations to other engineers remains the same. You might use this diagram to explain interactions while educating junior network engineers, while troubleshooting with tech support, or for explaining network automation.
 ### Creating a sequence diagram with Mermaid
 
 ## Class Diagrams
