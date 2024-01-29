@@ -18,7 +18,7 @@ sequenceDiagram
     deactivate Database
     Server-->Client: 6: When hashed incorrect password doesn't match hashed correct password, returns a 401 with error message
     deactivate Server
-    Client-->User: 7: UI displays "Incorrect password" message to returning user
+    Client-->Returning User: 7: UI displays "Incorrect password" message to returning user
     deactivate Client
     deactivate Returning User
 ```
