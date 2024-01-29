@@ -29,7 +29,7 @@ A sequence diagram shows you the flow of operations for a particular use case. T
 #### Developers
 Let's pretend you developed the login feature for your company's app. In order to properly document and explain this feature to the rest of your development team, you might create a sequence diagram. The sequence diagram would illustrate, step-by-step, the communication between client, server, database, etc. 
 #### Network Engineers 
-While UML diagrams are typically used in software development, the concept of explaining order of operations to other engineers remains the same. You might use this diagram to explain interactions between network devices while educating junior network engineers, while troubleshooting with tech support, or for explaining network automation.
+While UML diagrams are typically used in software development, the concept of explaining order of operations to other engineers remains the same. You might use this diagram to explain interactions between network devices for educational purposes (i.e. DHCP Handshake), while troubleshooting with tech support, or for explaining network automation.
 ### Creating a sequence diagram with Mermaid
 
 ## Class Diagrams
