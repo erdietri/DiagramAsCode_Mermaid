@@ -19,7 +19,7 @@ In a nutshell, there are 3 big reasons:
   * Windows: https://code.visualstudio.com/docs/setup/windows
   * Mac: https://code.visualstudio.com/docs/setup/mac
   * Linux: https://code.visualstudio.com/docs/setup/linux
-4. Install the extension Markdown Preview Mermaid Support to render previews of your diagrams: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+3. Install the extension Markdown Preview Mermaid Support to render previews of your diagrams: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
 
 ## Sequence Diagrams
 ![image](https://github.com/erdietri/DiagramAsCode_Mermaid/assets/37638931/78d9af84-94df-4876-b42e-861377b643e3)
