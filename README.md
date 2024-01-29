@@ -6,7 +6,7 @@ In a nutshell, there are 3 big reasons:
 * It's faster. You type very little in exchange for a well-formatted diagram.
 * No separate software; you can make your diagrams in your IDE.
 * You can track changes to the diagrams using version control. 
-* 
+* It's more reusable.
 
 ## Requirements 
 * VS Code (tested on v1.85.2)
