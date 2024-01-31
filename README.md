@@ -75,6 +75,9 @@ deactivate Client
 deactivate Returning User
 ```
 8. Mark the end of your Mermaid file with ```
+9. The final result of this example sequence diagram looks like this:
+<img src="https://github.com/erdietri/DiagramAsCode_Mermaid/assets/37638931/2edb0a51-7645-4e4b-8d2a-b93312d15cbe" width="400">
+
 
 ## Class Diagrams
 ### What is a class diagram?
