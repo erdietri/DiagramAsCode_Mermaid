@@ -31,7 +31,52 @@ Let's pretend you developed the login feature for your company's app. In order t
 #### Network Engineers 
 While UML diagrams are typically used in software development, the concept of explaining order of operations to other engineers remains the same. You might use this diagram to explain interactions between network devices for educational purposes (i.e. DHCP Handshake), while troubleshooting with tech support, or for explaining network automation.
 ### Creating a sequence diagram with Mermaid
+1. Create a .md file.
+```
+sequence_diagram.md
+```
+2. Indicate Mermaid syntax.
+```
+```mermaid
+```
+3. Declare the diagram type.
+```
+```mermaid
+sequenceDiagram
+```
+4. Hit the Tab key, then list actors and participants. Actors produce stick figures, participants produce boxes. Use the keyword 'as' to create an alias.
+```
+actor User
+participant Client
+participant Server
+participant Database
+```
+5. While still tabbed, use the keywords 'activate' and 'deactivate' to indicate when an actor or participant is active in the diagram.
+```
+activate Returning User
+Returning User->>Client: 1: Types username and incorrect password
+Returning User->>Client: 2: Clicks Submit button
+activate Client
+activate Server
+Client->>Server: 3: Makes Login API call with username and incorrect password
+activate Database
+Server->>Database: 4: Query for the username in Users table
+```
+In the snippet above, we create a call with solid line with arrowhead using Participant/Actor1 ->> Participant/Actor2. To remove the arrowhead, simply use ->
+
+6. There are multiple line types that can be used--see <a href=https://mermaid.js.org/intro/> Mermaid documentation.</a> In our sequence diagram photo above, we create the return calls (indicated by dashed lines with arrowheads) but using -->>. To remove the arrowhead, simply use -->
+```
+Database-->>Server: 5: Returns the hashed password associated with the username
+```
+
+7. Deactivate Participants/Actors as appropriate, if you haven't earlier in the diagram. Example below: 
+```
+deactivate Client
+deactivate Returning User
+```
+8. Mark the end of your Mermaid file with ```
 
 ## Class Diagrams
 ### What is a class diagram?
+A class diagram is an abbreviated visual of the contents of a given software class. For example, you might have a class called Door. The class diagram would list its properties (color = brown, shape = rectangle, height = 55) and its methods (for instance, OpenDoor(), ShutDoor(), SlamDoor()). 
 ### Creating a class diagram with Mermaid
