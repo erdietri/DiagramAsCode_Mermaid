@@ -81,5 +81,5 @@ deactivate Returning User
 
 ## Class Diagrams
 ### What is a class diagram?
-A class diagram is an abbreviated visual of the contents of a given software class. For example, you might have a class called Door. The class diagram would list its properties (color = brown, shape = rectangle, height = 55) and its methods (for instance, OpenDoor(), ShutDoor(), SlamDoor()). 
+A class diagram is an abbreviated visual of the contents of a given software class. For example, you might have a class called Door. The class diagram would list its properties (color = "brown", shape = "rectangle", height = 55) and its methods (for instance, OpenDoor(), ShutDoor(), SlamDoor()). 
 ### Creating a class diagram with Mermaid
