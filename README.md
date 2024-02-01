@@ -124,7 +124,7 @@ classDiagram
     classUser
 ```
 ````
-4. While still tabbed, list the class properties using the syntax 'ClassName : +/-/#/~ type property'. ClassName will be the name of the class specified in the diagram. The +, -, #, ~ indicates whether the property is public, private, protected, or internal, respectively. Type will be the data type (i.e., int). Property is the property name.
+5. While still tabbed, list the class properties using the syntax 'ClassName : +/-/#/~ type property'. 
 ````
 ```mermaid
 classDiagram
@@ -139,7 +139,30 @@ classDiagram
     User : + String country
 ```
 ````
-5. 
+ClassName will be the name of the class specified in the diagram. The +, -, #, ~ indicates whether the property is public, private, protected, or internal, respectively. Type will be the data type (i.e., int). Property is the property name.
 
+6. Finally, list the class functions/methods using the same syntax as properties, with the addition of (). The end result of our example looks like this: 
+````
+```mermaid
+classDiagram
+    classUser
+    User : - int userId
+    User : + String firstName
+    User : + String lastName
+    User : + String username
+    User : + int age
+    User : + String streetAddress
+    User : + String city
+    User : + String country
+    User : + CreateUser(firstName, lastName, age, username)
+    User : + UpdateUserAddress(streetAddress, city, country)
+    User : + ChangeUsername(username)
+    User : + DeleteUser(username)
+```
+````
+
+## Entity State Diagrams
+### What is an entity state diagram?
+### Creating an entity state diagram with Mermaid
 
 
