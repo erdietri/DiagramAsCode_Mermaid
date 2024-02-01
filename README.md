@@ -162,8 +162,12 @@ classDiagram
 ````
 
 ## State Diagrams
-### What is an state diagram?
-### Creating an state diagram with Mermaid
+### What is a state diagram?
+State diagrams are used to describe the state of a given system as well as how that state changes when given certain inputs. To oversimplify, let's pretend you wanted to show a person's sleep-wake cycle using a state diagram. There could be two states (awake, asleep). The transition from asleep to awake might be "alarm rings," and the transition from awake to asleep could be "it gets dark outside." 
+#### Developers/Cloud Engineers
+#### Network Engineers 
+
+### Creating a state diagram with Mermaid
 
 ## Entity Relationship Diagrams
 ### What is an Entity Relationship diagram?
