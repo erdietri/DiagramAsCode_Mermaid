@@ -1,5 +1,5 @@
 # Diagram-as-Code with Mermaid
-This README tutorial will explain how to create class diagrams and sequence diagrams using code. After reading the tutorial, check out the project files for examples of diagram-as-code in practice.
+This README tutorial will explain how to create sequence diagrams, class diagrams, and entity state diagrams using code. After reading the tutorial, check out the project files for examples of diagram-as-code in practice.
 
 ## Why Use Diagram-as-Code?
 * It's faster. You type very little in exchange for a well-formatted diagram.
@@ -104,3 +104,42 @@ sequenceDiagram
 ### What is a class diagram?
 A class diagram is an abbreviated visual of the contents of a given software class. For example, you might have a class called Door. The class diagram would list its properties (color = "brown", shape = "rectangle", height = 55) and its methods (for instance, OpenDoor(), ShutDoor(), SlamDoor()). 
 ### Creating a class diagram with Mermaid
+1. Create a .md file.
+```
+sequence_diagram.md
+```
+2. Indicate Mermaid syntax.
+```
+```mermaid
+```
+3. Declare the diagram type.
+```
+```mermaid
+classDiagram
+```
+4. Hit the Tab key, then name the class diagram using 'class<ClassName>'.
+````
+```mermaid
+classDiagram
+    classUser
+```
+````
+4. While still tabbed, list the class properties using the syntax 'ClassName : +/-/#/~ type property'. ClassName will be the name of the class specified in the diagram. The +, -, #, ~ indicates whether the property is public, private, protected, or internal, respectively. Type will be the data type (i.e., int). Property is the property name.
+````
+```mermaid
+classDiagram
+    classUser
+    User : - int userId
+    User : + String firstName
+    User : + String lastName
+    User : + String username
+    User : + int age
+    User : + String streetAddress
+    User : + String city
+    User : + String country
+```
+````
+5. 
+
+
+
