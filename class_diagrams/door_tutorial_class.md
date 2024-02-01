@@ -11,6 +11,8 @@ to signify that this file uses Mermaid.
 ```mermaid
 classDiagram
     class Door
+    %% The List below is private (-)
+    Door : -List
     %% The attribute below is public (+) and of type String
     Door : +String color
     Door : +String shape
