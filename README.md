@@ -161,8 +161,12 @@ classDiagram
 ```
 ````
 
-## Entity State Diagrams
-### What is an entity state diagram?
-### Creating an entity state diagram with Mermaid
+## State Diagrams
+### What is an state diagram?
+### Creating an state diagram with Mermaid
+
+## Entity Relationship Diagrams
+### What is an Entity Relationship diagram?
+### Creating an Entity Relationship diagram with Mermaid
 
 
