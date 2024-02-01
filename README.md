@@ -1,5 +1,5 @@
 # Diagram-as-Code with Mermaid
-This README tutorial will explain how to create sequence diagrams, class diagrams, and entity state diagrams using code. After reading the tutorial, check out the project files for examples of diagram-as-code in practice.
+This README tutorial will explain how to create sequence diagrams, class diagrams, state diagrams, and entity relationship diagrams using code. After reading the tutorial, check out the project files for examples of diagram-as-code in practice.
 
 ## Why Use Diagram-as-Code?
 * It's faster. You type very little in exchange for a well-formatted diagram.
