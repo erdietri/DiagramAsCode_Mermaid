@@ -166,11 +166,42 @@ classDiagram
 State diagrams are used to describe the state of a given system as well as how that state changes when given certain inputs. To oversimplify, let's pretend you wanted to show a person's sleep-wake cycle using a state diagram. There could be two states (awake, asleep). The transition from asleep to awake might be "alarm rings," and the transition from awake to asleep could be "it gets dark outside." 
 #### Developers/Cloud Engineers
 #### Network Engineers 
-
+Let's pretend you want to describe failover conditions for an active/standby firewall pair. You might create a state diagram with the two states being 'active' and 'standby' (or 'failover' and 'no failover') with the transitions being failover conditions.
 ### Creating a state diagram with Mermaid
+1. Create a .md file.
+```
+sequence_diagram.md
+```
+2. Indicate Mermaid syntax.
+```
+```mermaid
+```
+3. Declare the diagram type.
+```
+```mermaid
+stateDiagram
+```
 
-## Entity Relationship Diagrams
-### What is an Entity Relationship diagram?
+
+## Entity Relationship (ER) Diagrams
+### What is an Entity Relationship (ER) diagram?
+An ER diagram simply shows how different "things" or entities relate to one another. Really, it's that simple!
+#### Developers
+You might use an ER diagram to represent the relationships between tables/entities in a database.
+#### Network Engineers
+While I'm most familiar with ER diagrams being used for database representations, the actual definition of entity relationship diagram is just an illustration of how any "thing" (devices, objects, people, concepts...) relate to each other. This could mean using an ER diagram as an overview of an on-prem or cloud network design or how different products relate to certain types of security, compliance, or operational goal.
 ### Creating an Entity Relationship diagram with Mermaid
-
+1. Create a .md file.
+```
+sequence_diagram.md
+```
+2. Indicate Mermaid syntax.
+```
+```mermaid
+```
+3. Declare the diagram type.
+```
+```mermaid
+erDiagram
+```
 
